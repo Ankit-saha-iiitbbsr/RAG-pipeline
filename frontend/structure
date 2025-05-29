@@ -1,0 +1,16 @@
+frontend/
+├── app.py                       # Main Streamlit application
+├── components/                  
+│   ├── __init__.py
+│   └── auth.py                  # Authentication components (forms, helpers)
+├── utils/
+│   ├── __init__.py
+│   ├── api.py                   # API client configuration
+│   └── helpers.py               # Session management helpers
+├── pages/                       # Main pages (protected routes)
+│   ├── Home.py
+│   ├── Upload.py
+│   ├── Chat.py
+│   └── Query.py
+├── requirements.txt
+└── .env

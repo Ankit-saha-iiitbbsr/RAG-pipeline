@@ -1,0 +1,46 @@
+rag_document_system/
+│
+├── backend/
+│   ├── app/
+│   │   ├── _init_.py
+│   │   ├── main.py                 # FastAPI application entry point
+│   │   ├── config.py               # Configuration settings
+│   │   ├── database.py             # Database connection and session
+│   │   │
+│   │   ├── api/                    # API routes
+│   │   │   ├── _init_.py
+│   │   │   ├── auth.py             # Authentication routes
+│   │   │   ├── documents.py        # Document management routes
+│   │   │   ├── chat.py             # Chat interaction routes
+│   │   │   └── query.py            # Natural language query routes
+│   │   │
+│   │   ├── models/                 # SQLAlchemy models
+│   │   │   ├── _init_.py
+│   │   │   ├── user.py
+│   │   │   ├── document.py
+│   │   │   ├── chat.py
+│   │   │   └── query.py
+│   │   │
+│   │   ├── schemas/                # Pydantic models for request/response
+│   │   │   ├── _init_.py
+│   │   │   ├── user.py
+│   │   │   ├── document.py
+│   │   │   ├── chat.py
+│   │   │   └── query.py
+│   │   │
+│   │   ├── services/               # Business logic
+│   │   │   ├── _init_.py
+│   │   │   ├── auth.py            # Authentication service
+│   │   │   ├── document.py         # Document processing
+│   │   │   ├── rag.py             # RAG model implementation
+│   │   │   └── nl_to_sql.py       # Natural language to SQL conversion
+│   │   │
+│   │   └── utils/                  # Helper functions
+│   │       ├── _init_.py
+│   │       ├── security.py         # Password hashing, JWT
+│   │       └── file_handlers.py    # File processing utilities
+│   │
+│   ├── requirements.txt
+│   └── .env                        # Environment variables
+│
+└── README.md

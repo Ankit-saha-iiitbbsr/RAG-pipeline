@@ -1,0 +1,340 @@
+2025-05-28 10:14:23,980 - app.utils.logger - INFO - Root endpoint accessed
+2025-05-28 10:20:41,409 - app.utils.logger - INFO - Root endpoint accessed
+2025-05-28 10:39:53,472 - app.utils.logger - INFO - Root endpoint accessed
+2025-05-28 11:49:27,607 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 11:49:27,875 - app.utils.logger - INFO - Successful login for user: ankit.saha@gmail.com
+2025-05-28 11:49:28,141 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:49:28,143 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:49:28,147 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:49:28,148 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:49:28,152 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:49:28,153 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:49:28,162 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:49:28,163 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:49:31,952 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:49:31,953 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:49:31,961 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:49:31,963 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:49:31,969 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:49:31,969 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:49:32,009 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:49:32,010 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:49:32,014 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/2 | User ID: 2
+2025-05-28 11:49:32,017 - app.utils.logger - INFO - Retrieved chat history for document 2
+2025-05-28 11:49:42,567 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:49:42,568 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:49:42,578 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /chat | User ID: 2
+2025-05-28 11:49:44,802 - app.utils.logger - INFO - Chat message created for user 2 on document 2
+2025-05-28 11:52:22,509 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:52:22,511 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:52:32,793 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 11:52:33,052 - app.utils.logger - INFO - Successful login for user: ankit.saha@gmail.com
+2025-05-28 11:52:33,090 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:52:33,091 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:52:33,094 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:52:33,095 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:52:33,103 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:52:33,104 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:52:33,113 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:52:33,113 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:53:13,537 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:53:13,538 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:53:13,545 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:53:13,548 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:53:13,556 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:53:13,558 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:53:13,609 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:53:13,609 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:53:13,613 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/2 | User ID: 2
+2025-05-28 11:53:13,615 - app.utils.logger - INFO - Retrieved chat history for document 2
+2025-05-28 11:54:02,443 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:54:02,444 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:54:02,456 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /chat | User ID: 2
+2025-05-28 11:54:06,165 - app.utils.logger - INFO - Chat message created for user 2 on document 2
+2025-05-28 11:54:29,460 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:54:29,461 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:54:29,466 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/2 | User ID: 2
+2025-05-28 11:54:29,467 - app.utils.logger - INFO - Retrieved chat history for document 2
+2025-05-28 11:54:34,981 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:54:34,983 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:55:54,212 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:55:54,212 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:55:54,217 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:55:54,218 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:55:54,224 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:55:54,227 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:55:54,235 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:55:54,236 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:55:57,544 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:55:57,545 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:55:57,552 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 11:55:57,554 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 11:55:57,561 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:55:57,562 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:55:57,608 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:55:57,609 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:55:57,612 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/3 | User ID: 2
+2025-05-28 11:55:57,613 - app.utils.logger - INFO - Retrieved chat history for document 3
+2025-05-28 11:55:59,335 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:55:59,337 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:56:01,329 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:56:01,332 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:56:01,340 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/3 | User ID: 2
+2025-05-28 11:56:01,341 - app.utils.logger - INFO - Retrieved chat history for document 3
+2025-05-28 11:56:18,867 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:56:18,869 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:56:18,919 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:56:18,919 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:56:21,230 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:56:21,232 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:56:21,275 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 11:56:21,276 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 11:56:21,279 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/2 | User ID: 2
+2025-05-28 11:56:21,280 - app.utils.logger - INFO - Retrieved chat history for document 2
+2025-05-28 12:09:01,165 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:01,166 - app.utils.logger - INFO - Retrieved 2 documents for user 2
+2025-05-28 12:09:10,561 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /documents/upload | User ID: 2
+2025-05-28 12:09:10,562 - app.utils.logger - INFO - File saved at: uploads/2/70__ATS_rating_Resume_Template.pdf
+2025-05-28 12:09:10,578 - app.utils.logger - INFO - Document created in database with ID: 4
+2025-05-28 12:09:10,578 - app.utils.logger - INFO - Processing document 4 for RAG...
+2025-05-28 12:09:10,962 - app.utils.logger - INFO - Document 4 processed successfully for RAG.
+2025-05-28 12:09:10,974 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:10,975 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:09:26,274 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:26,275 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:09:26,281 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 12:09:26,283 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 12:09:26,291 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:26,291 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:09:26,304 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 12:09:26,305 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 12:09:29,874 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:29,875 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:09:29,881 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 12:09:29,883 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 12:09:29,890 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:29,891 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:09:29,944 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:29,945 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:09:29,949 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/4 | User ID: 2
+2025-05-28 12:09:29,950 - app.utils.logger - INFO - Retrieved chat history for document 4
+2025-05-28 12:09:33,927 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:09:33,928 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:09:33,934 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/4 | User ID: 2
+2025-05-28 12:09:33,935 - app.utils.logger - INFO - Retrieved chat history for document 4
+2025-05-28 12:09:33,942 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /chat | User ID: 2
+2025-05-28 12:09:35,418 - app.utils.logger - INFO - Chat message created for user 2 on document 4
+2025-05-28 12:10:07,093 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 12:10:07,094 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 12:10:07,101 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /chat | User ID: 2
+2025-05-28 12:10:11,160 - app.utils.logger - INFO - Chat message created for user 2 on document 4
+2025-05-28 12:45:31,260 - app.utils.logger - INFO - Root endpoint accessed
+2025-05-28 12:46:12,299 - app.utils.logger - INFO - Root endpoint accessed
+2025-05-28 12:49:46,543 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 12:49:46,784 - app.utils.logger - INFO - Successful login for user: ankit.saha@gmail.com
+2025-05-28 13:42:05,908 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 13:42:06,155 - app.utils.logger - INFO - Successful login for user: ankit.saha@gmail.com
+2025-05-28 13:42:06,194 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:42:06,194 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:42:06,197 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:42:06,198 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:42:06,202 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:42:06,203 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:42:06,212 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:42:06,213 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:42:38,835 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:42:38,836 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:42:38,841 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:42:38,842 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:42:38,850 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:42:38,851 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:42:38,897 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:42:38,897 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:42:38,901 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/4 | User ID: 2
+2025-05-28 13:42:38,902 - app.utils.logger - INFO - Retrieved chat history for document 4
+2025-05-28 13:42:58,585 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:42:58,587 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:42:58,638 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:42:58,639 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:43:06,132 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:43:06,132 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:43:06,178 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:43:06,179 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:43:06,182 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/2 | User ID: 2
+2025-05-28 13:43:06,183 - app.utils.logger - INFO - Retrieved chat history for document 2
+2025-05-28 13:43:09,819 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:43:09,820 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:43:09,865 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:43:09,865 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:54:37,158 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:54:37,159 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:54:37,165 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:54:37,166 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:54:37,173 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:54:37,173 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:54:37,183 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:54:37,184 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:54:49,659 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:54:49,659 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:55:02,901 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:55:02,902 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:55:02,906 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/4 | User ID: 2
+2025-05-28 13:55:02,906 - app.utils.logger - INFO - Retrieved chat history for document 4
+2025-05-28 13:55:28,691 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:55:28,692 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:55:28,699 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /chat | User ID: 2
+2025-05-28 13:55:30,578 - app.utils.logger - INFO - Chat message created for user 2 on document 4
+2025-05-28 13:55:40,084 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:55:40,084 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:55:40,090 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/4 | User ID: 2
+2025-05-28 13:55:40,091 - app.utils.logger - INFO - Retrieved chat history for document 4
+2025-05-28 13:55:43,097 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:55:43,098 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:56:00,238 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:56:00,239 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:56:00,243 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/4 | User ID: 2
+2025-05-28 13:56:00,244 - app.utils.logger - INFO - Retrieved chat history for document 4
+2025-05-28 13:56:02,913 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:56:02,914 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:56:08,288 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /query/history | User ID: 2
+2025-05-28 13:56:08,290 - app.utils.logger - INFO - Retrieved 0 query history entries for user 2
+2025-05-28 13:56:50,827 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:56:50,827 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:56:50,832 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:56:50,833 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:56:50,838 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 13:56:50,839 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 13:56:50,848 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 13:56:50,849 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 13:58:26,622 - app.utils.logger - INFO - Root endpoint accessed
+2025-05-28 14:12:56,973 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 14:12:57,245 - app.utils.logger - WARNING - Failed login attempt for email: ankit.saha@gmail.com
+2025-05-28 14:13:06,277 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 14:13:06,518 - app.utils.logger - INFO - Successful login for user: ankit.saha@gmail.com
+2025-05-28 14:13:06,558 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:13:06,560 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:13:06,564 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:06,565 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 14:13:06,571 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:13:06,572 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:13:06,588 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:06,589 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 14:13:09,249 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:09,250 - app.utils.logger - INFO - Retrieved 0 indexed URLs for user 2
+2025-05-28 14:13:14,107 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/url | User ID: 2
+2025-05-28 14:13:15,548 - app.utils.logger - INFO - Added URL https://www.watercoolertrivia.com/trivia-questions/cricket-trivia-questions for user 2
+2025-05-28 14:13:15,556 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:15,560 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:21,873 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:21,877 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:21,883 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/chat/history | User ID: 2
+2025-05-28 14:13:21,885 - app.utils.logger - INFO - Retrieved web chat history for user 2
+2025-05-28 14:13:26,252 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:13:26,253 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:13:26,258 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:26,263 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:26,269 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:13:26,270 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:13:26,280 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:26,283 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:33,336 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:13:33,336 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:13:33,343 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:33,349 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:33,354 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:13:33,355 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:13:33,365 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:33,367 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:33,407 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:33,409 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:52,645 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:13:52,649 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:13:52,658 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/chat | User ID: 2
+2025-05-28 14:13:53,506 - app.utils.logger - INFO - Web chat message created for user 2
+2025-05-28 14:14:23,141 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:14:23,145 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:16:48,305 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:16:48,318 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:17:08,970 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:17:08,973 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:17:08,983 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/chat | User ID: 2
+2025-05-28 14:17:18,649 - app.utils.logger - INFO - Web chat message created for user 2
+2025-05-28 14:49:35,742 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 14:49:36,015 - app.utils.logger - INFO - Successful login for user: ankit.saha@gmail.com
+2025-05-28 14:49:36,056 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:49:36,057 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:49:36,061 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:49:36,076 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:49:36,082 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:49:36,084 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:49:36,096 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:49:36,100 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:49:43,296 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:49:43,296 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:49:46,716 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:49:46,721 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:49:46,728 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/chat/history | User ID: 2
+2025-05-28 14:49:46,731 - app.utils.logger - INFO - Retrieved web chat history for user 2
+2025-05-28 14:49:48,710 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:49:48,711 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:49:52,029 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:49:52,030 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:49:54,202 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:49:54,207 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:49:56,269 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:49:56,270 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:49:58,840 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:49:58,843 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:50:00,834 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /query/history | User ID: 2
+2025-05-28 14:50:00,836 - app.utils.logger - INFO - Retrieved 0 query history entries for user 2
+2025-05-28 14:50:28,679 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 2
+2025-05-28 14:50:30,942 - app.utils.logger - ERROR - Error: near "To": syntax error | Additional Info: Error processing database query for user 2
+2025-05-28 14:51:44,648 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:51:44,650 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:51:44,655 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:51:44,671 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:51:44,678 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:51:44,678 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:51:44,693 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:51:44,697 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 14:52:01,705 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 2
+2025-05-28 14:52:04,315 - app.utils.logger - INFO - Database query processed for user 2
+2025-05-28 14:56:13,043 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 14:56:13,044 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 14:56:14,305 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 14:56:14,308 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 15:02:17,673 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 15:02:17,675 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 15:02:17,681 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 15:02:17,694 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 15:02:17,699 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 15:02:17,700 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 15:02:17,707 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 15:02:17,711 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 15:02:51,762 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 2
+2025-05-28 15:02:55,514 - app.utils.logger - INFO - Database query processed for user 2
+2025-05-28 15:03:50,773 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 2
+2025-05-28 15:03:52,836 - app.utils.logger - ERROR - Error: near "accessing": syntax error | Additional Info: Error processing database query for user 2
+2025-05-28 15:04:09,174 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 2
+2025-05-28 15:04:12,612 - app.utils.logger - INFO - Database query processed for user 2
+2025-05-28 15:08:37,254 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 15:08:37,256 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 15:08:39,472 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 15:08:39,474 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 15:08:39,518 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 15:08:39,518 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 15:08:39,522 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/2 | User ID: 2
+2025-05-28 15:08:39,524 - app.utils.logger - INFO - Retrieved chat history for document 2
+2025-05-28 15:11:49,070 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 15:11:49,071 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 15:11:49,077 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 15:11:49,081 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 15:11:49,088 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 2
+2025-05-28 15:11:49,089 - app.utils.logger - INFO - Retrieved 3 documents for user 2
+2025-05-28 15:11:49,096 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 2
+2025-05-28 15:11:49,099 - app.utils.logger - INFO - Retrieved 1 indexed URLs for user 2
+2025-05-28 15:43:44,157 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-28 15:43:44,416 - app.utils.logger - INFO - Successful login for user: ankit.saha@gmail.com
+2025-05-28 15:43:49,460 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /api/profile | User ID: 2
+2025-05-28 15:43:49,460 - app.utils.logger - INFO - Profile retrieved for user: ankit.saha@gmail.com
+2025-05-28 16:29:43,444 - app.utils.logger - INFO - Root endpoint accessed

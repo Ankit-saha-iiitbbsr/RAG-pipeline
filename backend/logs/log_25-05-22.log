@@ -1,0 +1,149 @@
+2025-05-22 08:56:44,508 - app.utils.logger - INFO - Root endpoint accessed
+2025-05-22 08:57:15,770 - app.utils.logger - INFO - User registered successfully: ram@example.com
+2025-05-22 08:57:25,865 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 08:57:26,180 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 08:58:19,510 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/url | User ID: 1
+2025-05-22 08:58:21,450 - app.utils.logger - INFO - Added URL https://www.soa.ac.in/iter for user 1
+2025-05-22 08:59:32,089 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/chat | User ID: 1
+2025-05-22 08:59:34,345 - app.utils.logger - INFO - Web chat message created for user 1
+2025-05-22 09:03:40,392 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/url | User ID: 1
+2025-05-22 09:03:42,767 - app.utils.logger - INFO - Added URL https://www.geeksforgeeks.org/reverse-a-string-in-java/ for user 1
+2025-05-22 09:04:14,077 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/chat | User ID: 1
+2025-05-22 09:04:15,134 - app.utils.logger - INFO - Web chat message created for user 1
+2025-05-22 09:06:36,903 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/chat | User ID: 1
+2025-05-22 09:06:37,932 - app.utils.logger - INFO - Web chat message created for user 1
+2025-05-22 09:08:12,629 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /documents/upload | User ID: 1
+2025-05-22 09:08:12,668 - app.utils.logger - INFO - File saved at: uploads\1\cv_japan.pdf
+2025-05-22 09:08:12,683 - app.utils.logger - INFO - Document created in database with ID: 1
+2025-05-22 09:08:12,684 - app.utils.logger - INFO - Processing document 1 for RAG...
+2025-05-22 09:08:13,480 - app.utils.logger - INFO - Document 1 processed successfully for RAG.
+2025-05-22 09:08:23,401 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 09:08:23,403 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 09:09:32,135 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /chat | User ID: 1
+2025-05-22 09:09:32,954 - app.utils.logger - INFO - Chat message created for user 1 on document 1
+2025-05-22 09:10:00,500 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /chat | User ID: 1
+2025-05-22 09:10:01,135 - app.utils.logger - INFO - Chat message created for user 1 on document 1
+2025-05-22 09:12:09,526 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 1
+2025-05-22 09:12:10,493 - app.utils.logger - INFO - Database query processed for user 1
+2025-05-22 09:13:10,532 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 1
+2025-05-22 09:13:11,085 - app.utils.logger - ERROR - Error: no such function: TIMESTAMP | Additional Info: Error processing database query for user 1
+2025-05-22 09:14:20,185 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 1
+2025-05-22 09:14:21,119 - app.utils.logger - INFO - Database query processed for user 1
+2025-05-22 09:14:56,136 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /query | User ID: 1
+2025-05-22 09:14:57,212 - app.utils.logger - INFO - Database query processed for user 1
+2025-05-22 09:15:55,849 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /query/history | User ID: 1
+2025-05-22 09:15:55,856 - app.utils.logger - INFO - Retrieved 3 query history entries for user 1
+2025-05-22 09:16:12,536 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history | User ID: 1
+2025-05-22 09:16:12,547 - app.utils.logger - INFO - Retrieved 2 chat history entries for user 1
+2025-05-22 09:16:12,550 - app.utils.logger - ERROR - Error: 1 validation error for ChatHistoryResponse
+history
+  Field required [type=missing, input_value={'id': 2, 'user_id': 1, '..., 22, 3, 40, 1, 118316)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing | Additional Info: Error fetching all chat history for user 1
+2025-05-22 09:16:27,737 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history | User ID: 1
+2025-05-22 09:16:27,744 - app.utils.logger - INFO - Retrieved 2 chat history entries for user 1
+2025-05-22 09:16:27,746 - app.utils.logger - ERROR - Error: 1 validation error for ChatHistoryResponse
+history
+  Field required [type=missing, input_value={'id': 2, 'user_id': 1, '..., 22, 3, 40, 1, 118316)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing | Additional Info: Error fetching all chat history for user 1
+2025-05-22 09:16:41,908 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history | User ID: 1
+2025-05-22 09:16:41,909 - app.utils.logger - INFO - Retrieved 0 chat history entries for user 1
+2025-05-22 09:17:30,338 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /chat/history/1 | User ID: 1
+2025-05-22 09:17:30,339 - app.utils.logger - INFO - Retrieved chat history for document 1
+2025-05-22 09:21:33,933 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/chat/history | User ID: 1
+2025-05-22 09:21:33,937 - app.utils.logger - INFO - Retrieved web chat history for user 1
+2025-05-22 10:03:51,861 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 10:03:52,302 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 10:03:54,951 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:03:54,973 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:08:40,386 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 10:08:40,698 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 10:08:42,825 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:08:42,854 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:08:44,880 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:08:44,926 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:08:46,978 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:08:46,979 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:08:49,013 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:08:49,017 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:09:55,679 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 10:09:56,226 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 10:09:58,327 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:09:58,329 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:10:00,353 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:10:00,360 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:10:02,423 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:10:02,425 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:10:04,449 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:10:04,455 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:10:39,394 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 10:10:39,740 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 10:10:41,832 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:10:41,834 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:10:43,862 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:10:43,871 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:10:45,911 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:10:45,925 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:10:47,981 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:10:48,084 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:34:32,090 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 10:34:32,356 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 10:34:34,415 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:34:34,416 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:34:36,449 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:34:36,454 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:34:38,498 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:34:38,500 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:34:40,546 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:34:40,559 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:36:08,018 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 10:36:08,264 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 10:36:10,783 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:36:10,784 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:36:12,806 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:36:12,812 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:36:14,843 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:36:14,847 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:36:16,888 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:36:16,895 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:36:28,381 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:36:28,386 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:36:41,866 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:36:41,870 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:36:43,899 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/chat/history | User ID: 1
+2025-05-22 10:36:43,902 - app.utils.logger - INFO - Retrieved web chat history for user 1
+2025-05-22 10:39:10,796 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:39:10,797 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:39:14,030 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:39:14,032 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:39:19,550 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:39:19,552 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:39:21,594 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:39:21,600 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 10:39:23,612 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 10:39:23,613 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 10:39:25,654 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 10:39:25,659 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 11:00:01,207 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /api/login
+2025-05-22 11:00:01,449 - app.utils.logger - INFO - Successful login for user: ram@example.com
+2025-05-22 11:00:04,066 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 11:00:04,067 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 11:00:06,092 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 11:00:06,102 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 11:00:08,136 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 11:00:08,138 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 11:00:10,171 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 11:00:10,175 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 11:01:22,308 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 11:01:22,312 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 11:01:31,252 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 11:01:31,260 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 11:01:33,287 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/chat/history | User ID: 1
+2025-05-22 11:01:33,290 - app.utils.logger - INFO - Retrieved web chat history for user 1
+2025-05-22 11:05:22,315 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /webrag/urls | User ID: 1
+2025-05-22 11:05:22,320 - app.utils.logger - INFO - Retrieved 2 indexed URLs for user 1
+2025-05-22 11:05:24,374 - app.utils.logger - INFO - API Request - Method: POST | Endpoint: /webrag/chat | User ID: 1
+2025-05-22 11:05:26,277 - app.utils.logger - INFO - Web chat message created for user 1
+2025-05-22 11:05:50,126 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 11:05:50,127 - app.utils.logger - INFO - Retrieved 1 documents for user 1
+2025-05-22 11:05:58,328 - app.utils.logger - INFO - API Request - Method: GET | Endpoint: /documents | User ID: 1
+2025-05-22 11:05:58,332 - app.utils.logger - INFO - Retrieved 1 documents for user 1
